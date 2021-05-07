@@ -11,11 +11,12 @@
 ###### Apache2 Web Server
 
 
+
 ### 1. Task 1 - Hacking.
 
 ###### Copy the repository on you computer:
 ```
-git clone https://github.com/nickname/name-repo
+git clone https://github.com/dubikvlad/Antiplagiarism
 ```
 ###### Create index.html file in the root of project directory. The file must has a html form with post method. And form must has a input element (or input area) with attribute name and submit button in the html form.
 ###### Edit file script.cpp. There is the function called getInt in the script file. Write your code in this function.
@@ -55,3 +56,7 @@ sudo docker run -d -p 8080:80 app:1.0
 ###### Type in browser ```http:<external_ip>:8080/``` for check app.
 
 #### Congratulations - app is working!!!
+
+#### Notes:
+###### File ```db.txt``` contains a string with which the input text is compared.
+###### App works with russian language.
